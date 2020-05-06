@@ -14,13 +14,23 @@ The second consonant will change to it's subscript form and join the first.
 ![](Git/join_example.png)
 
 
-**Result (ថ្ម)**
+**Correct result (ថ្ម)**
 
 ![](Git/joined_example.png)
 
 
-## HOW:
+**Unity's result (ថ្ម)**
+
+![](Git/broken_example.png)
+
+
+## How:
 This was achieved by creating a sprite atlas of all the subscript forms of each consonant and creatign a sprite asset in Text Mesh Pro. Then in a script modifying the script to point tot he sprite asset as a fallback.
+
+
+## Special Thanks:
+Thanks to [ThaiFontAdjuster](https://github.com/SaladLab/Unity3D.ThaiFontAdjuster) for their insightful information getting Thai working.
+
 
 ## NOTE:
 

@@ -1,0 +1,43 @@
+{
+  "Id": "ThaiFontAdjuster",
+  "Version": "1.0.0",
+  "Authors": [
+    "Esun Kim"
+  ],
+  "Owners": [
+    "Esun Kim"
+  ],
+  "Description": "Utility to render Thai text correctly in Unity3D, especially for positioning tone mark.",
+  "MergedDependencies": {},
+  "Files": [
+    "Assets/UnityPackages/ThaiFontAdjuster/ThaiFontAdjuster.cs",
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/Garuda.ttf",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/Kinnari.ttf",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/Loma.ttf",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/Norasi.ttf",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/NotoSansThai-Regular-Adjusted.ttf",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/ThaiFontAdjusterDemo.cs",
+      "Extra": true
+    },
+    {
+      "Target": "Assets/UnityPackages/ThaiFontAdjusterDemo/ThaiFontAdjusterDemo.unity",
+      "Extra": true
+    }
+  ]
+}
